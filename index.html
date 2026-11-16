@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Student ICT training centre</title>
+</head>
+<body>
+    
+    <header id="Home">
+        <h1>Student ICT Training centre</h1>
+        <p>Empowering students with technology</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">about us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#Timetale">Timetable</a></li>
+            <li><a href="#registration">Registration</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        About us
+        <section id="about">
+            <h2>About us</h2>
+            <p>The Student training centre is an institution dedicated to provide students with practical information and communication technology skills.
+                our centre aims at preparing students for the modern digital worl through quality training.
+            </p>
+            <p>We offer various ICT training programmes including, web Development, computer networking, database management and cybersecurity.
+                Our training combines theoretical knowledge with practical experience to develop students' technical abiloities.
+            </p>
+            <img src="../MEDIA/Students learning.jpg" alt="Students are learning computer skills">
+
+        </section>
+     
+        <section id="Courses">
+            <h2>Available Training programmes</h2>
+            <h3> Courses</h3>
+            <ul id="Courses">
+                <li>web development</li>
+                <li>Computer networking</li>
+                <li>database management</li>
+                <li>cybersecurity</li>
+            </ul>
+            <h3>Steps for Student Registration</h3>
+            <ol id="Steps">
+                <li>Visit the Student ICT Training Centre website.</li>
+                <li>Review the Available training programmes.</li>
+                <li>Select your preferred training programmes.</li>
+                <li>Complete online Registration form.</li>
+                <li>Submit your Registration details.</li>
+            </ol>
+
+        </section>
+        
+        <section id="Timetable">
+            <table  border="1px" cell padding="5px" cell spacing="1px">
+                <caption>Weekly Training Timetable</caption>
+                <tr>
+                    <th>Day</th>
+                    <th>Course</th>
+                    <th>Time</th>
+                    <th>Instructor</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Web Development</td>
+                    <td>8:00am-10:00am</td>
+                    <td>Mr.John</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Computer networking</td>
+                    <td>9:00am-11:00am</td>
+                    <td>Mr.Paul</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Database management</td>
+                    <td>2:00pm-4:00pm</td>
+                    <td>Mrs.Neki</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>cybersecurity</td>
+                    <td>12:00pm-2:00pm</td>
+                    <td>Mrs.Neko</td>
+                </tr>
+
+            </table>
+
+        </section>
+        <div></div>
+     
+        <section id="Registration">
+            <h2>Student Registration</h2>
+            <p>Fill in the form below to registr for preferable</p>
+            <form action="#" method="post">
+                <label for="name">Full name</label>
+                <input type="text"id="name" name="fullname" required>
+                <label for="Number">Student Number</label>
+                <input type="text" id="number" name="Student Number">
+                <label for="email">Email address</label>
+                <input type="text" id="email" name="email"required>
+                <label for="Gender">Gender</label>
+                <input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+                <label for="Course">Select your course</label>
+                <select name="course" id="course" required>
+                    <option value="">Choose course</option>
+                    <option value="web">Web Development</option>
+                    <option value="networking">Computer networking</option>
+                    <option value="database">Database management</option>
+                    <option value="cybersecurity">Cybersecurity</option>
+                </select>
+                <label for="study">Study Mode</label>
+                <input type="radio" name="Study">Online
+                <input type="radio" name="study">Physical
+                <label>
+                    <input type="checkbox" required>I agree to the registration termss.
+                </label>
+                <label for="comments">Additional comments</label>
+                <textarea  placeholder="Enter your comments"></textarea>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+                         
+            </form>
+
+        </section>
+        <h2>Available Training programmes</h2>
+        <div class="container">
+            <div class="card">
+                <span class="register-label">Register Now</span>
+                <h3>Web Development</h3>
+                <p>Learn HTML, CSS, and Javascript to create website</p>
+            </div>
+            <div class="card">
+                <h3>cybersecurity</h3>
+                <p>Learn how to protect computer systems and networks from cyber thredts</p>
+            </div>
+            <div class="card">
+                <h3> Computer networking</h3>
+                <p>Learn network configuration, troubleshooting and administration.</p>
+            </div>
+            <div class="card">
+                <h3>database management</h3>
+                <p>Learn how to create database using SQL server and to manage it </p>
+            </div>
+            
+
+
+        </div>
+
+
+    </main>
+    
+    <footer>
+        <p> &copy 2026 Student ICT Training Centre.
+            All Right Reserved.
+        </p>
+    </footer>
+    <a href="#top" class="back-to-top">Back to top</a>
+
+</body>
+</html>

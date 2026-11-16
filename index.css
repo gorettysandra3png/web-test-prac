@@ -1,0 +1,193 @@
+*  body{
+    background-color: rgb(143, 105, 35);
+    box-sizing: border-box;
+    margin: o;
+    padding: o;
+
+}
+ header{
+    background-color: rgb(68, 68, 143);
+    color: rgb(191, 212, 147);
+    text-align: center;
+    padding: 25px;
+
+ }
+ header h1{
+    margin: 0;
+ }
+ nav{
+    background-color: rgb(136, 14, 99);
+    padding: 15px;
+    text-align: center;
+ }
+ nav ul{
+    list-style: decimal;
+    margin: 0;
+    padding: o;
+ }
+ nav ul li{
+    display: inline-block;
+    margin: o.2px;
+ }
+ nav ul li a{
+    color: rgb(250, 25, 231);
+    text-decoration: none;
+    font-weight: bold;
+    padding: i5px;
+
+ }
+ nav ul li a:hover{
+    background-color: brown;
+    border-radius: 5px;
+ }
+main{
+    padding: 20px;
+}
+section{
+    background-color: bisque;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+h2{
+    color: rgb(105, 17, 122);
+}
+img{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+ul.courses{
+    list-style: square;
+    line-height: 2;
+}
+ol.steps{
+    line-height: 2;
+}
+table{
+    width: 100%;
+    margin-top: 15px;
+
+}
+th{
+    background-color: rgb(66, 15, 20);
+    color: #7e9cd4;
+}
+th, td{
+    border: 1px solid;
+    padding: 12px;
+    text-align: center;
+}
+form{
+    max-width: 500px;
+}
+input,select{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+}
+button{
+    background-color: rgb(228, 54, 141);
+    color: rgb(250, 243, 243);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+textarea{
+    height: 50px;
+}
+
+footer{
+    background-color: rgb(80, 107, 29);
+    color: rgb(249, 248, 252);
+    text-align: center;
+    padding: 15px;
+}
+h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 15px;
+
+}
+.card{
+    display: block;
+    background-color: rgb(184, 32, 138);
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px yellow;
+    text-align: center;
+    position: relative;
+    border: 1px solid;
+    flex: 1 1 1 1px;
+
+}
+.card h3{
+    color: rgb(17, 236, 35);
+    margin-bottom: 10px;
+}
+nav{
+    position: sticky;
+    top: 0px;
+}
+.register-label{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+     background-color: rgb(211, 72, 16);
+     color: aliceblue;
+     font-weight: bold;
+     font-size: 12px;
+     padding: 4px 8px;
+     border-radius: 4px;
+}
+.card p{ 
+    font-size: 14px;
+}
+.card:nth-child(1){
+    background-color: #915fb9;
+    border-top: color(srgb red green blue);
+}
+
+@media(max-width: 600px){
+    .card{
+        width: 100px;
+    }
+}
+
+.card:nth-child(2){
+    background-color: #388ba0;
+    border-top: color(srgb red green blue);
+}    
+    .card:nth-child(3){
+    background-color: #860e62;
+    border-top: color(srgb red green blue);
+    } 
+    .card:nth-child(4) {
+        background-color: #cc2d97;
+        border-top: color(srgb red green blue);
+    }  
+.back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;background-color: rgb(231, 79, 143);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: beige;
+    z-index: 100;
+}
+
+
+
